@@ -18,10 +18,8 @@
     <% } else { %>
     <p>No items to display</p>
     <% } %>
-    <p>
-      <!-- HTML content goes here -->
-    </p>
+    <p><%- htmlContent %></p>
 
-    <!-- Footer goes here -->
+    <%- include("footer.ejs") %>
   </body>
 </html>
